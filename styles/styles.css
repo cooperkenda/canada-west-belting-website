@@ -279,7 +279,7 @@ body {
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url("../images/conveyer-belt-images/conveyor-image-3.jpeg");
+   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url("../images/misc-photos/conveyor-hero-section.jpeg");
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
@@ -484,7 +484,7 @@ body {
   max-width: 1440px;
   justify-content: space-evenly;
   margin: auto;
-  padding: 50px 25px;
+  padding: 0;
   flex-wrap: wrap;
 }
 .hme-one, .hme-two, .hme-three {
@@ -660,7 +660,7 @@ form textarea:focus {
   flex-wrap: wrap;
   max-width: 1440px;
   margin: auto;
-  padding: 50px 0;
+  padding: 0;
 }
 .division-card {
   width: 500px;
