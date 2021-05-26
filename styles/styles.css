@@ -488,6 +488,8 @@ body {
   flex-wrap: wrap;
 }
 .hme-one, .hme-two, .hme-three {
+  display: flex;
+  flex-direction: column;
   background-color: #ffffff;
   padding: 30px 50px;
   border-radius: 15px;
@@ -905,7 +907,52 @@ color: #B10909;
   font-weight: 600;
   margin-bottom: 15px;
 }
+/* ---------------------------------------SERVICES PAGE--------------------------------------------- */
+.service-cards {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 50px;
+ justify-content: center;
+ max-width: 1440px;
+ margin: auto;
+}
 
+.service-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  flex: 1 0 300px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 2px 43px -14px rgba(0,0,0,0.28);
+  -moz-box-shadow: 0px 2px 43px -14px rgba(0,0,0,0.28);
+  box-shadow: 0px 2px 43px -14px rgba(0,0,0,0.28);
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 30px;
+}
+
+.service-card h3 {
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.service-card p {
+  font-size: 18px;
+}
+.service-content {
+  text-align: center;
+  max-width: 1200px;
+  margin: 25px auto 50px auto;
+}
+.service-content h3 {
+  font-size: 42px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.service-content p {
+  font-size: 18px;
+}
 
 /* ---------------------------------------MEDIA QUERIES--------------------------------------------- */
 @media only screen and (max-width: 1440px) {
@@ -916,6 +963,12 @@ color: #B10909;
   .about-us-section-container {
     padding: 0 50px
   }
+  .service-cards {
+    padding: 0 50px;
+   }
+   .service-content {
+    padding: 0 50px;
+   }
 }
 
 @media only screen and (max-width: 1250px) {
@@ -1345,7 +1398,30 @@ color: #B10909;
   .contact-info i {
     font-size: 22px; 
     padding: 0 0 10px 0;
-    }
+  }
+  .service-card h3 {
+    font-weight: 600;
+    padding-bottom: 10px;
+  }
+  .service-content h3 {
+    font-size: 32px;
+  }
+  .service-content p {
+    font-size: 16px;
+  }
+  .service-card p {
+    font-size: 16px;
+  }
+  .service-content {
+    padding: 25px;
+    margin: 0 auto 0 auto;
+  }
+  .service-cards {
+    padding: 25px;
+   }
+   .service-card {
+    margin-top: 0px;
+  }
 }
 
 
